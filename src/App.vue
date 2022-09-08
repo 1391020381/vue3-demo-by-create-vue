@@ -3,18 +3,15 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="nav-content">
-    <van-button plain type="primary"
-      ><RouterLink to="/">Home</RouterLink></van-button
-    >
-    <van-button plain type="primary">
-      <RouterLink to="/about">About</RouterLink></van-button
-    >
-  </div>
-
-  <div class="view-content">
+  <van-row>
+    <van-col><RouterLink to="/">Hello-World</RouterLink></van-col>
+    <van-col><RouterLink to="/lifeCycle">lifeCycle</RouterLink></van-col>
+    <van-col><RouterLink to="/nex-tick">nex-tick</RouterLink></van-col>
+    <van-col><RouterLink to="/Teleport">Teleport</RouterLink></van-col>
+  </van-row>
+  <van-row>
     <RouterView />
-  </div>
+  </van-row>
 </template>
 
 <style scoped>
