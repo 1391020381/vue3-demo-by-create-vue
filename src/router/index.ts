@@ -30,6 +30,16 @@ const router = createRouter({
       name: "Teleport",
       component: () => import("../views/Teleport.vue"),
     },
+    {
+      path: "/vbind-css",
+      name: "vbind-css",
+      component: () => import("../views/vbind-css.vue"),
+    },
+    {
+      path: "/ref-family-bucket",
+      name: "ref-family-bucket",
+      component: () => import("../views/ref-family-bucket.vue"),
+    },
   ],
 });
 
