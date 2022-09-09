@@ -18,7 +18,10 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/ref-deconstruct">ref-deconstruct Ref解构</RouterLink>
     </van-col>
     <van-col>
-      <RouterLink to="stopPropagation">stopPropagation</RouterLink>
+      <RouterLink to="/stopPropagation">stopPropagation</RouterLink>
+    </van-col>
+    <van-col>
+      <RouterLink to="/responsiveness-lost">responsiveness-lost</RouterLink>
     </van-col>
   </van-row>
   <van-row>

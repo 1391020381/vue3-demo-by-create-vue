@@ -50,6 +50,11 @@ const router = createRouter({
       name: "stopPropagation",
       component: () => import("../views/stopPropagation.vue"),
     },
+    {
+      path: "/responsiveness-lost",
+      name: "responsiveness-lost",
+      component: () => import("../views/responsiveness-lost.vue"),
+    },
   ],
 });
 
