@@ -55,6 +55,11 @@ const router = createRouter({
       name: "responsiveness-lost",
       component: () => import("../views/responsiveness-lost.vue"),
     },
+    {
+      path: "/v-model",
+      name: "v-model",
+      component: () => import("../views/v-model.vue"),
+    },
   ],
 });
 
