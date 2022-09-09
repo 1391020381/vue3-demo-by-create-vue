@@ -40,6 +40,11 @@ const router = createRouter({
       name: "ref-family-bucket",
       component: () => import("../views/ref-family-bucket.vue"),
     },
+    {
+      path: "/ref-deconstruct",
+      name: "ref-deconstruct",
+      component: () => import("../views/ref-deconstruct.vue"),
+    },
   ],
 });
 

@@ -10,10 +10,13 @@ import { RouterLink, RouterView } from "vue-router";
     <van-col><RouterLink to="/Teleport">Teleport</RouterLink></van-col>
     <van-col><RouterLink to="vbind-css">vbind-css</RouterLink></van-col>
     <van-col
-      ><RouterLink to="ref-family-bucket"
+      ><RouterLink to="/ref-family-bucket"
         >ref-family-bucket</RouterLink
       ></van-col
     >
+    <van-col>
+      <RouterLink to="/ref-deconstruct">ref-deconstruct Ref解构</RouterLink>
+    </van-col>
   </van-row>
   <van-row>
     <RouterView />
