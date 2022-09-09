@@ -45,6 +45,11 @@ const router = createRouter({
       name: "ref-deconstruct",
       component: () => import("../views/ref-deconstruct.vue"),
     },
+    {
+      path: "/stopPropagation",
+      name: "stopPropagation",
+      component: () => import("../views/stopPropagation.vue"),
+    },
   ],
 });
 
