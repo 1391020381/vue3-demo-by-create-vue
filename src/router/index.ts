@@ -60,6 +60,16 @@ const router = createRouter({
       name: "v-model",
       component: () => import("../views/v-model.vue"),
     },
+    {
+      path: "/computed-demo",
+      name: "computed-demo",
+      component: () => import("../views/computed-demo.vue"),
+    },
+    {
+      path: "/watch-family-bucket",
+      name: "watch-family-bucket",
+      component: () => import("../views/watch-family-bucket.vue"),
+    },
   ],
 });
 

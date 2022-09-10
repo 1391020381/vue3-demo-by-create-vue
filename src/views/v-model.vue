@@ -1,7 +1,7 @@
 <template>
   <p>{{ value }}</p>
   <div>
-    <CustomVmodel v-model="value"></CustomVmodel>
+    <CustomVmodel v-model.capitalize="value"></CustomVmodel>
   </div>
 </template>
 <script setup lang="ts">

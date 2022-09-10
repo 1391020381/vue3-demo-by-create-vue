@@ -26,6 +26,12 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/responsiveness-lost">responsiveness-lost</RouterLink>
     </van-col>
     <van-col><RouterLink to="/v-model">v-model</RouterLink></van-col>
+    <van-col
+      ><RouterLink to="/computed-demo">computed-demo</RouterLink></van-col
+    >
+    <van-col>
+      <RouterLink to="/watch-family-bucket">watch-family-bucket</RouterLink>
+    </van-col>
   </van-row>
   <van-row>
     <RouterView />
