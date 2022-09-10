@@ -70,6 +70,11 @@ const router = createRouter({
       name: "watch-family-bucket",
       component: () => import("../views/watch-family-bucket.vue"),
     },
+    {
+      path: "/shallowRef",
+      name: "shallowRef",
+      component: () => import("../views/shallowRef.vue"),
+    },
   ],
 });
 

@@ -32,6 +32,9 @@ import { RouterLink, RouterView } from "vue-router";
     <van-col>
       <RouterLink to="/watch-family-bucket">watch-family-bucket</RouterLink>
     </van-col>
+    <van-col>
+      <RouterLink to="/shallowRef">shallowRef</RouterLink>
+    </van-col>
   </van-row>
   <van-row>
     <RouterView />
