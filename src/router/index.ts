@@ -75,6 +75,11 @@ const router = createRouter({
       name: "shallowRef",
       component: () => import("../views/shallowRef.vue"),
     },
+    {
+      path: "/ts-basics",
+      name: "ts-basics",
+      component: () => import("../views/ts-basics.vue"),
+    },
   ],
 });
 

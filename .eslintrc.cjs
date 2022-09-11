@@ -9,6 +9,10 @@ module.exports = {
     "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-prettier",
   ],
+  rules: {
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "warn",
+  },
   parserOptions: {
     ecmaVersion: "latest",
   },

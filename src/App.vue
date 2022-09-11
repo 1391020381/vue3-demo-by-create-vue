@@ -37,6 +37,9 @@ import { RouterLink, RouterView } from "vue-router";
     </van-col>
   </van-row>
   <van-row>
+    <RouterLink to="/ts-basics">ts-basics</RouterLink>
+  </van-row>
+  <van-row>
     <RouterView />
   </van-row>
 </template>
